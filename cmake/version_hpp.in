@@ -1,0 +1,21 @@
+//==================================================
+// Automatically generated, but not overwritten
+//==================================================
+// CAVEAT: version.hpp.in is never overwritten, but version.hpp is!
+//
+
+#pragma once
+
+/** @file 
+ *  @brief TradeParser configuration file
+ *  
+ *  @attention automatically generated from @b version.hpp.in, do not modify!
+ */
+
+#define TradeParser_VERSION_MAJOR @TradeParser_VERSION_MAJOR@  
+#define TradeParser_VERSION_MINOR @TradeParser_VERSION_MINOR@
+#define TradeParser_VERSION_PATCH @TradeParser_VERSION_PATCH@
+#define TradeParser_GIT_REVISION "@TradeParser_GIT_REVISION@"
+
+#define TradeParser_SYSTEM_NAME @CMAKE_SYSTEM_NAME@
+#define TradeParser_HOST_SYSTEM_PROCESSOR @CMAKE_HOST_SYSTEM_PROCESSOR@
